@@ -1,0 +1,117 @@
+#temp-style{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#dde1e7;
+    /* background-image: url("./mockups/desktop.PNG");
+    background-repeat: no-repeat;
+    background-position: center center; */
+    
+}
+
+.content{
+    border:#7600d5 solid 1px;
+    border-radius: 10px;
+    width: 767px;
+    margin: auto;
+    
+}
+
+@media screen and (max-width: 767px)
+{
+    .content{
+        border:#7600d5 solid 1px;
+        border-radius: 10px;
+        width: 100%;
+        margin: 0%;
+        
+    }
+}
+
+
+.content-head{
+    background-color:#7600d5;
+    border-radius: 10px 10px 0px 0px ;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* margin-bottom: 20px; */
+    padding: 5px 0px;
+}
+
+.content-body{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    /* margin: 4% 22%; */
+    height: auto;
+    
+    
+}
+
+.text{
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #4a4a4a;
+    /* padding: 4px 0px; */
+
+}
+
+.img-section{
+    display: flex ;
+    justify-content: space-around;
+    margin: 0% 20%;
+    padding: 20px 0 20px 0px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.line{
+    width: 42%;
+    height: 1px;
+    background-color: #95979a;
+    
+    /* margin: 20px 0; */
+}
+
+.skin-section{
+    display: flex ;
+    justify-content: center;
+    /* margin: 5px 0; */
+    padding: 10px 0 10px 0px;
+
+}
+
+.Tshirt-section{
+    display: flex ;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+
+}
+
+.btn-section{
+    padding: 20px 0 20px 0px;
+}
+
+.btn{
+    color: white;
+    background-color: #1b39e2;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* margin: 0% 40%; */
+    /* margin-bottom: 10px;
+    padding-bottom: 10px; */
+   
+}
